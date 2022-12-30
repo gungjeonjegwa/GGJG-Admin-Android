@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">GGJG-Admin</string>
+    <string name="admin_login">관리자 로그인</string>
+    <string name="login">로그인</string>
+    <string name="login_comment">궁전제과 앱을 편하게 관리해 보세요!</string>
+    <string name="request_id">아이디를 입력해 주세요</string>
+    <string name="request_pw">비밀번호를 입력해 주세요</string>
 </resources>
