@@ -39,14 +39,14 @@
             android:layout_width="match_parent"
             android:layout_height="0.5dp"
             android:orientation="vertical"
-            app:layout_constraintGuide_percent="0.49" />
+            app:layout_constraintGuide_percent="0.48" />
 
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/betweenEndLine"
             android:layout_width="match_parent"
             android:layout_height="0.5dp"
             android:orientation="vertical"
-            app:layout_constraintGuide_percent="0.51" />
+            app:layout_constraintGuide_percent="0.52" />
 
         <View
             android:id="@+id/betweenView"
