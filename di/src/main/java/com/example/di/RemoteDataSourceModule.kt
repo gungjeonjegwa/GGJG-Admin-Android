@@ -1,4 +1,4 @@
-package com.example.ggjg_admin.di
+package com.example.di
 
 import dagger.Module
 import dagger.hilt.InstallIn
@@ -6,5 +6,5 @@ import dagger.hilt.components.SingletonComponent
 
 @Module
 @InstallIn(SingletonComponent::class)
-abstract class RepositoryModule {
+abstract class RemoteDataSourceModule {
 }

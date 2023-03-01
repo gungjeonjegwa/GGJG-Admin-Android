@@ -1,6 +1,5 @@
-package com.example.ggjg_admin.di
+package com.example.di
 
-import com.example.ggjg_admin.BuildConfig
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

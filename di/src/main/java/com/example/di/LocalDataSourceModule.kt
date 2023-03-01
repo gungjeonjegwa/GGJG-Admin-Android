@@ -1,4 +1,4 @@
-package com.example.ggjg_admin.di
+package com.example.di
 
 import dagger.Module
 import dagger.hilt.InstallIn
