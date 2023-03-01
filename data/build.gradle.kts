@@ -1,6 +1,5 @@
 plugins {
     id("org.jetbrains.kotlin.android")
-    id("dagger.hilt.android.plugin")
     id("com.android.library")
     id("kotlin-kapt")
 }
@@ -38,17 +37,10 @@ android {
 dependencies {
     implementation(project(":domain"))
 
-    implementation(Dependency.AndroidX.CORE_KTX)
-    implementation(Dependency.AndroidX.APP_COMPAT)
-    implementation(Dependency.AndroidX.CONSTRAINT_LAYOUT)
-
-    implementation(Dependency.Hilt.HILT_ANDROID)
-    kapt(Dependency.Hilt.HILT_ANDROID_COMPILER)
+    implementation(Dependency.JavaX.INJECT)
 
     implementation(Dependency.Room.ROOM)
     kapt(Dependency.Room.ROOM_COMPILER)
-
-    implementation(Dependency.Google.MATERIAL)
 
     implementation(Dependency.Retrofit.RETROFIT)
     implementation(Dependency.Retrofit.RETROFIT_CONVERTER_GSON)
@@ -56,6 +48,7 @@ dependencies {
     implementation(Dependency.Retrofit.OKHTTP_LOGGING_INTERCEPTOR)
 
     testImplementation(Dependency.UnitTest.JUNIT)
+    testImplementation(Dependency.UnitTest.MOCKITO)
 
     androidTestImplementation(Dependency.AndroidTest.ANDROID_JUNIT)
     androidTestImplementation(Dependency.AndroidTest.ESPRESSO_CORE)
