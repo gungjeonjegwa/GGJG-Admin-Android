@@ -28,6 +28,7 @@ object Dependency {
         const val LIFECYCLE = "androidx.lifecycle:lifecycle-runtime-ktx:${Version.LIFECYCLE_KTX}"
 
         const val PAGING = "androidx.paging:paging-runtime-ktx:${Version.PAGING}"
+        const val PREFERENCE_KTX = "androidx.preference:preference-ktx:${Version.PREFERENCE_KTX}"
     }
 
     object Hilt {
@@ -71,5 +72,9 @@ object Dependency {
 
     object Coil {
         const val COIL = "io.coil-kt:coil:${Version.COIL}"
+    }
+
+    object JavaX {
+        const val INJECT = "javax.inject:javax.inject:${Version.INJECT}"
     }
 }
