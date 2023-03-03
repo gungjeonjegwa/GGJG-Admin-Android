@@ -15,19 +15,13 @@ class MainFragment : BaseFragment<FragmentMainBinding>(R.layout.fragment_main) {
     private fun initView() = binding.apply {
         main = this@MainFragment
         Handler().postDelayed({
-            val btnHeight = breadBtn.width
             val betweenHeight = betweenView.width
-            listOf(orderBtn, clientBtn, breadBtn, qaAndReviewBtn, bannerBtn).forEach {
-                it.layoutParams = it.layoutParams.apply {
-                    height = btnHeight
-                }
-            }
             listOf(firstDivide, secondDivide).forEach {
                 it.layoutParams = it.layoutParams.apply {
                     height = betweenHeight
                 }
             }
-        }, 1)
+        }, 2)
     }
 
     fun onClick(view: View) {
@@ -38,8 +32,6 @@ class MainFragment : BaseFragment<FragmentMainBinding>(R.layout.fragment_main) {
                 .navigate(R.id.action_mainFragment_to_clientFragment)
             R.id.breadBtn -> requireActivity().findNavController(R.id.mainContainer)
                 .navigate(R.id.action_mainFragment_to_breadFragment)
-            R.id.qaAndReviewBtn -> requireActivity().findNavController(R.id.mainContainer)
-                .navigate(R.id.action_mainFragment_to_QAFragment)
             R.id.bannerBtn -> requireActivity().findNavController(R.id.mainContainer)
                 .navigate(R.id.action_mainFragment_to_bannerFragment)
         }
