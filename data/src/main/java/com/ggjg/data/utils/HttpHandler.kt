@@ -1,4 +1,4 @@
-package com.example.data.utils
+package com.ggjg.data.utils
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
