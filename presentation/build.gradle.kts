@@ -8,17 +8,16 @@ plugins {
 }
 
 android {
-    namespace = "com.example.ggjg_admin"
+    namespace = "com.ggjg.presentation"
     compileSdk = Version.COMPILE_SDK_VERSION
 
     defaultConfig {
-        applicationId = "com.example.ggjg_admin"
+        applicationId = "com.ggjg.presentation"
         minSdk = Version.MIN_SDK_VERSION
         targetSdk = Version.TARGET_SDK_VERSION
         versionCode = 1
         versionName = "1.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-        buildConfigField("String", "BASE_URL", getApiKey("BASE_URL"))
     }
 
     buildTypes {

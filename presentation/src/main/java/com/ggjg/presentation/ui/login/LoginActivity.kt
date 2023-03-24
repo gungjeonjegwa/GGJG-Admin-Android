@@ -1,17 +1,16 @@
-package com.example.ggjg_admin.ui.login
+package com.ggjg.presentation.ui.login
 
-import android.content.Intent
 import android.text.method.HideReturnsTransformationMethod
 import android.text.method.PasswordTransformationMethod
 import android.view.View
-import com.example.ggjg_admin.R
-import com.example.ggjg_admin.databinding.ActivityLoginBinding
-import com.example.ggjg_admin.utils.extension.changeActivatedWithEnabled
-import com.example.ggjg_admin.utils.extension.setOnTextChanged
-import com.example.ggjg_admin.utils.extension.setVisible
-import com.example.ggjg_admin.utils.keyboardHide
-import com.example.ggjg_admin.utils.keyboardShow
-import com.example.ggjg_andorid.ui.base.BaseActivity
+import com.ggjg.presentation.R
+import com.ggjg.presentation.databinding.ActivityLoginBinding
+import com.ggjg.presentation.ui.base.BaseActivity
+import com.ggjg.presentation.utils.extension.changeActivatedWithEnabled
+import com.ggjg.presentation.utils.extension.setOnTextChanged
+import com.ggjg.presentation.utils.extension.setVisible
+import com.ggjg.presentation.utils.keyboardHide
+import com.ggjg.presentation.utils.keyboardShow
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

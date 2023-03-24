@@ -1,4 +1,4 @@
-package com.example.ggjg_admin
+package com.ggjg.presentation
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp

@@ -1,11 +1,11 @@
-package com.example.ggjg_admin.ui.main
+package com.ggjg.presentation.ui.main
 
 import android.os.Handler
 import android.view.View
 import androidx.navigation.findNavController
-import com.example.ggjg_admin.R
-import com.example.ggjg_admin.databinding.FragmentMainBinding
-import com.example.ggjg_andorid.ui.base.BaseFragment
+import com.ggjg.presentation.R
+import com.ggjg.presentation.databinding.FragmentMainBinding
+import com.ggjg.presentation.ui.base.BaseFragment
 
 class MainFragment : BaseFragment<FragmentMainBinding>(R.layout.fragment_main) {
     override fun createView() {

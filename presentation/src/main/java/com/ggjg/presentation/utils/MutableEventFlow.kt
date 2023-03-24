@@ -1,4 +1,4 @@
-package com.example.ggjg_admin.utils
+package com.ggjg.presentation.utils
 
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.FlowCollector

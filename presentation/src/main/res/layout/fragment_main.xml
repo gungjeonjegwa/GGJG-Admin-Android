@@ -6,7 +6,7 @@
 
         <variable
             name="main"
-            type="com.example.ggjg_admin.ui.main.MainFragment" />
+            type="com.ggjg.presentation.ui.main.MainFragment" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

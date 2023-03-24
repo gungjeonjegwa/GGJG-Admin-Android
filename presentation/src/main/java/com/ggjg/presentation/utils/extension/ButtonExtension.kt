@@ -1,4 +1,4 @@
-package com.example.ggjg_admin.utils.extension
+package com.ggjg.presentation.utils.extension
 
 import android.widget.Button
 

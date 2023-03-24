@@ -1,4 +1,4 @@
-package com.example.ggjg_andorid.ui.base
+package com.ggjg.presentation.ui.base
 
 import android.os.Bundle
 import android.view.LayoutInflater

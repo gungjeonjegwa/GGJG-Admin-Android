@@ -1,4 +1,4 @@
-package com.example.ggjg_admin.utils
+package com.ggjg.presentation.utils
 
 import android.app.Activity
 import android.os.Handler

@@ -1,4 +1,4 @@
-package com.example.ggjg_admin.utils.extension
+package com.ggjg.presentation.utils.extension
 
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleOwner
