@@ -1,4 +1,4 @@
-package com.example.di
+package com.ggjg.di
 
 import dagger.Module
 import dagger.Provides
@@ -27,7 +27,7 @@ object NetworkModule {
         gsonConverterFactory: GsonConverterFactory,
     ): Retrofit {
         return Retrofit.Builder()
-            .baseUrl(BuildConfig.BASE_URL)
+            .baseUrl(com.ggjg.di.BuildConfig.BASE_URL)
             .client(okHttpClient)
             .addConverterFactory(gsonConverterFactory)
             .build()
