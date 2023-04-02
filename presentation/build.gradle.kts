@@ -12,7 +12,7 @@ android {
     compileSdk = Version.COMPILE_SDK_VERSION
 
     defaultConfig {
-        applicationId = "com.ggjg.presentation"
+        applicationId = "com.ggjg.admin"
         minSdk = Version.MIN_SDK_VERSION
         targetSdk = Version.TARGET_SDK_VERSION
         versionCode = 1
