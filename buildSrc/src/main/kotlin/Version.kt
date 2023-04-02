@@ -39,4 +39,6 @@ object Version {
     const val COIL = "0.10.0"
 
     const val INJECT = "1"
+
+    const val GGJG_UTIL = "1.0.1"
 }
