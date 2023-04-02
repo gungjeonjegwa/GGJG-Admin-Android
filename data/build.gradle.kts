@@ -39,6 +39,9 @@ dependencies {
 
     implementation(Dependency.JavaX.INJECT)
 
+
+    implementation(Dependency.GGJG.UTIL)
+
     implementation(Dependency.Room.ROOM)
     kapt(Dependency.Room.ROOM_COMPILER)
 

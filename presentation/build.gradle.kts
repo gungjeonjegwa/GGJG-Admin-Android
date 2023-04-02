@@ -93,6 +93,8 @@ dependencies {
     implementation(Dependency.BottomNav.NAV_UI)
 
     implementation(Dependency.Coil.COIL)
+
+    implementation(Dependency.GGJG.UTIL)
 }
 
 fun getApiKey(propertyKey: String): String {
